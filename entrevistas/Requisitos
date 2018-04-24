@@ -1,0 +1,21 @@
+REQUISITOS FUNCIONALES (Son aquellos que definen que debe de hacer el sistema).
+
+El sistema enviará una notificación cuando se haga algun movimiento en la cuenta.
+El usuario deberá verificar que es mayor de edad para poder crearse una cuenta.
+El sistema permitirá que el usuario cree/modifique su plan de ahorro según sus necesidades.
+El sistema tendrá un apartado donde el usuario pueda ver todos los movimientos realizados en su cuenta.
+El sistema contará con un contacto para ayuda o incidencias online 24h.
+Se mostrará por pantalla todos los detalles de origen, destino, usuario, fecha, etc cuando se realice un movimientode dinero en la aplicacion.
+El software debe estar para cualquier plataforma de smartphone.
+A final de mes el sistema genera un archivo con el resumen de todos los movimientos.
+
+REQUISITOS NO FUNCIONALES (Son aquellos que definen como debe de ser el sistema: propiedades, restricciones, organización, vinculos externos...)
+
+Debe estar en vigor con todos los requisitos legales.
+Los datos de los usuarios deben ser confidenciales.
+Debe tener una velocidad de ejecución rápida.
+La interfaz tiene que ser facil de manejar puesto que es para todo tipo de usuarios.
+Tiempo minimo para la resolucion de un fallo.
+La actualizacion tras la modificación de un usuario debe ser menor de 5 segundos.
+Debe de hacerse una copia de seguridad diaria.
+Si se detecta actividades poco comun en un usuario se suspendera o se pedira un tipo de verificacion.
