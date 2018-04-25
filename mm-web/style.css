@@ -1,0 +1,65 @@
+#login-box {
+	margin: auto;
+	padding-top: 260px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+#tt {
+	background-color: white;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+
+.barra {
+	background-color: #ea2241;
+}
+
+.flex-column {
+	# background-color: #6a0f1e;
+}
+
+.barra-opt {
+	height: 60px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
+.btn-link {
+	color: white;
+}
+
+.card {
+	background-color: #6a0f1e;
+	border-radius: 0px;
+}
+
+
+.card-body {
+	color: white;
+	background-color: #b71b33;
+}
+
+.btn-link:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.btn-link:focus {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
