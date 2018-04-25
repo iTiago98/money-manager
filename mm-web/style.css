@@ -5,10 +5,12 @@
 	padding-right: 300px;
 }
 
-#tt {
+#login {
 	background-color: white;
 	padding: 20px;
-	border-radius: 25px;
+	margin: 250px auto;
+	max-width: 500px;
+	border-radius: 16px;
 }
 
 
