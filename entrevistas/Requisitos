@@ -8,6 +8,9 @@ El sistema contará con un contacto para ayuda o incidencias online 24h.
 Se mostrará por pantalla todos los detalles de origen, destino, usuario, fecha, etc cuando se realice un movimientode dinero en la aplicacion.
 El software debe estar para cualquier plataforma de smartphone.
 A final de mes el sistema genera un archivo con el resumen de todos los movimientos.
+Según el tipo de usuario que se loguee el sistema dará diferentes privilegios.
+El sistema enlazará una ID única a cada usuario.
+El sistema crea un umbral de gasto inicial, pudiendo ser modificado por el usuario(el sistema sacaría un mensaje por pantalla diciendo que no es recomendado modificarlo).
 
 REQUISITOS NO FUNCIONALES (Son aquellos que definen como debe de ser el sistema: propiedades, restricciones, organización, vinculos externos...)
 
@@ -19,3 +22,5 @@ Tiempo minimo para la resolucion de un fallo.
 La actualizacion tras la modificación de un usuario debe ser menor de 5 segundos.
 Debe de hacerse una copia de seguridad diaria.
 Si se detecta actividades poco comun en un usuario se suspendera o se pedira un tipo de verificacion.
+Habrá una pestaña para acceder a los diferentes planes de ahorro de un mismo usuario.
+El usuario distribuirá su saldo y lo que quiere ahorrar a principio de mes.
