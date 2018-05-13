@@ -1,0 +1,11 @@
+Gestión tanto anual como mensual del dinero
+Planificación de los futuros gastos que puede o no puede hacer el usuario
+Distribución del dinero de forma inteligente 
+Alarmas que avisen al usuario y utilicen, a ser posible, vibración
+Gestión de recibos, impuestos, renta...
+Clasificación en gastos fijos y extras (ocio, ahorros...)
+Capacidad para funcionar en cualquier dispositivo móvil
+Versión web
+3 meses de plazo
+Presupuesto de 15000€ a 20000€
+Colores corporativos de Cofidis

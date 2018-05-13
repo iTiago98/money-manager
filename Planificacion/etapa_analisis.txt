@@ -1,0 +1,11 @@
+Requisitos
+	Respuesta a preguntas	=> Definición de requisitos
+				=> Petición de requisitos
+------------
+Arquitectura
+	Definición de requisitos
+	Feedback de diseño	=> Diseño de prototipo
+------------
+Entrevista
+	Diseño de prototipo 	=> Feedback de diseño
+	Petición de requisitos	=> Respuesta a preguntas

@@ -1,0 +1,21 @@
+Empresa financiera con empresasxd (cofidis, setelen) han detectado interes en la gestion de fondos de sus clientes. Para añadir valor, quiere crear una app para ofrecer un plan financiero con alarmas, el usuario administra mensualmente el dinero que tiene  gestiona los impuestos a pagar, tiene: precios fijos, renta, agua, luz, aviso de seguros…. Tambien puede generar más “partidas” de ahorro para algo personal, ocio, un nuevo coche...
+
+Consultor de “caprichos”: ¿Puedo comparar esto y que no me produzca una complicacion para llegar a fin d mes?
+
+No hay competencia puesto que no se encuentran servicios de este estilo
+
+Sistema en el dispositivos moviles (sobretodo) y pagina web
+
+Distribucion de manera general, gratuita para sus clientes
+
+Fecha limite: 3 meses – hoy 13/abril/2018
+
+Presupuesto: 15K-20K
+
+Base de datos nuevo donde el cliente mete su información y la empresa ofrece ofertas de ayuda que se devuelven en un periodo (apuros economicos)
+
+SCRUM
+
+Colores: Identidad corporativa Cofidish
+
+Satisfaccion :)))))))Satisfaccion :)))))))Satisfaccion :)))))))Satisfaccion :)))))))Satisfaccion :)))))))
