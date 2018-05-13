@@ -13,4 +13,5 @@ El software debe estar en vigor con todos los requisitos legales.
 Los datos de los usuarios deben ser confidenciales.
 La interfaz debe ser user-friendly.
 La actualización de los datos tras la modificación de un usuario debe ser menor de 3 segundos.
+El tiempo de respuesta ha de ser fluido y casi inmediato.
 Debe de hacerse una copia de seguridad diaria.
