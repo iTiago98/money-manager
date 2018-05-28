@@ -17,7 +17,7 @@
     <element xsi:type="archimate:Goal" name="Crear un valor añadido para nuestro cliente." id="1f52a706-ad03-4a5f-b867-4b4fd1b74e8b"/>
     <element xsi:type="archimate:Requirement" name="Relización de copia de seguridad diaria." id="0de51649-001c-424b-b05d-2bf564041680"/>
     <element xsi:type="archimate:Requirement" name="El usuario podrá crear planes económicos." id="91540e77-be5c-4fd0-b76b-d7d79c07b0be"/>
-    <element xsi:type="archimate:Requirement" name="El usuario será notificado en caso de sobrerepasar un umbral en base a sus ingresos." id="7b3d5546-53d8-47d0-83b1-3053b57253d7"/>
+    <element xsi:type="archimate:Requirement" name="El usuario será notificado en caso de sobrepasar un umbral en base a sus ingresos." id="7b3d5546-53d8-47d0-83b1-3053b57253d7"/>
     <element xsi:type="archimate:Requirement" name="El usuario podrá acceder a la aplicación con un ID y clave que están almacenados en el sistema central." id="934b1e46-51c1-4c0b-946f-957396ca0127"/>
     <element xsi:type="archimate:Requirement" name="Visualización y gestión de datos desde una aplicación con plataforma web." id="76a74880-0353-46e9-a513-1616cbdad4df"/>
     <element xsi:type="archimate:Constraint" name="Realización de copia de seguridad diaria" id="fbead35a-5573-416f-84f8-188748488749"/>
