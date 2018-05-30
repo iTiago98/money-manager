@@ -5,7 +5,7 @@
   <folder name="Application" id="796e3781-1127-41d5-bd41-75f121f7ab3b" type="application">
     <element xsi:type="archimate:ApplicationService" name="Application Service" id="d8cd5331-c70c-4295-a630-045cac85411c"/>
     <element xsi:type="archimate:ApplicationComponent" id="afb5ce9e-f61a-4a1d-95d3-3a811eedabc1"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Supervisor general" id="422e0e2d-0400-42f4-a6f7-23476866a3d8"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Base de datos" id="422e0e2d-0400-42f4-a6f7-23476866a3d8"/>
     <element xsi:type="archimate:ApplicationComponent" name="APP y Portal Web" id="b1172059-c606-4a65-8bbc-5f937e07f4cc"/>
     <element xsi:type="archimate:ApplicationInterface" name="API Servicios" id="dea16282-5d25-4dc9-8f76-4a9cfe0fe5ba"/>
     <element xsi:type="archimate:ApplicationComponent" name="Sistema de respaldo" id="d82662f4-fd02-41c7-b3b1-dbcd873a3f88"/>
