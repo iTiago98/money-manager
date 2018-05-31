@@ -1,17 +1,29 @@
 REQUISITOS FUNCIONALES
 
-El sistema permitir� que el usuario cree/modifique su plan de ahorro seg�n sus necesidades.
+El sistema permitirá que el usuario cree/modifique su plan de ahorro según sus necesidades.
 El software debe estar disponible para cualquier plataforma.
-A final de mes, el sistema generar� un archivo con el resumen de todos los gastos/ingresos registrados en la aplicaci�n.
-Cada usuario tendr� una ID �nica asociada, cuya adminsitraci�n depende de la empresa contratante.
-A cada usuario, dependiendo de sus ingresos, le ser� estimado el umbral de gastos recomendable. El usuario podr� exceder este umbral.
-En caso de que el umbral recomendado sea excedido, se le notificar� al usuario que est� desaconsejado exceder este umbral.
+A final de mes, el sistema generará un archivo con el resumen de todos los gastos/ingresos registrados en la aplicación.
+Cada usuario tendrá una ID única asociada, cuya adminsitración depende de la empresa contratante.
+A cada usuario, dependiendo de sus ingresos, le será estimado el umbral de gastos recomendable. El usuario podrá exceder este umbral.
+En caso de que el umbral recomendado sea excedido, se le notificará al usuario que está desaconsejado exceder este umbral.
+El usuario podrá visualizar la gestión y los gastos de sus ahorros.
+La configuración podrá ser modificada a su gusto por el cliente.¿?
+El sistema mostrará recomendaciones personalizadas para cada tipo de usuario analizando sus datos.
+El sistema otorgará diferentes privilegios dependiendo del tipo de usuario(normal, supervisor, moderador).
+El sistema no permitirá planes que sobrepasen los ahorros del usuario.
+El usuario tendrá la posibilidad de visualizar sus datos que la app almacena(Nombre, nick, correo electronico, ...).
+El usuario podrá aceptar o denegar las recomendaciones del sistema.
+El sistema mostrará uan pantalla de confirmación al usuario para cada modificación que haga en su cuenta.
 
 REQUISITOS NO FUNCIONALES
 
 El software debe estar en vigor con todos los requisitos legales.
 Los datos de los usuarios deben ser confidenciales.
 La interfaz debe ser user-friendly.
-La actualizaci�n de los datos tras la modificaci�n de un usuario debe ser menor de 3 segundos.
+La actualización de los datos tras la modificación de un usuario debe ser menor de 3 segundos.
 El tiempo de respuesta ha de ser fluido y casi inmediato.
 Debe de hacerse una copia de seguridad diaria.
+Los colores de la app/web serán los colores de las empresas involucradas.
+Habrá un apartado de reportes para errores o dudas que le surjan a los usuarios.
+La app/web estará organizada por apartados en pestañas.
+El sistema no revelará datos personales de los clientes a ningún tipo de usuario excepto el nombre y su ID al supervisor y moderador.
