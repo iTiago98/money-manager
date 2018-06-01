@@ -3,6 +3,7 @@ Hora: 13.10
 Duración: 15min
 
 Asistentes:
+ Peláez Sánchez, José Ignacio
  Carrión Muñoz, Jorge
  Jiménez Pacheco, Daniel
  Lete Martín, Santiago
@@ -14,3 +15,57 @@ Asistentes:
 Ausentes:
  Fernández Márquez, María: Enfermedad
  Corchado López, Alejandro: Médico
+
+-------------------------------------
+
+Reunión 15/05/2018
+Hora: 9.30
+Duración: 30min
+
+Asistentes:
+ Carrión Muñoz, Jorge
+ Jiménez Pacheco, Daniel
+ Lete Martín, Santiago
+ Machuca Muñoz, Francisco
+ Peláez Sánchez, José Ignacio
+ Pardo Pascual, Luis
+ Valadez Cano, Miguel
+ Fernández Márquez, María
+ Corchado López, Alejandro
+
+-------------------------------------
+
+Reunión 29/05/2018
+Hora: 9.30
+Duración: 1h30min
+
+Asistentes:
+ Peláez Sánchez, José Ignacio
+ Carrión Muñoz, Jorge
+ Jiménez Pacheco, Daniel
+ Lete Martín, Santiago
+ Machuca Muñoz, Francisco
+ Peláez Sánchez, José Ignacio
+ Pardo Pascual, Luis
+ Valadez Cano, Miguel
+ Fernández Márquez, María
+ Corchado López, Alejandro
+
+
+-------------------------------------
+
+Reunión 01/06/2018
+Hora: 12:00
+Duración: 30min (estimada)
+
+Asistentes (esperados):
+ Peláez Sánchez, José Ignacio
+ Carrión Muñoz, Jorge
+ Jiménez Pacheco, Daniel
+ Lete Martín, Santiago
+ Machuca Muñoz, Francisco
+ Peláez Sánchez, José Ignacio
+ Pardo Pascual, Luis
+ Valadez Cano, Miguel
+ Fernández Márquez, María
+ Corchado López, Alejandro
