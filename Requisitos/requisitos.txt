@@ -1,4 +1,4 @@
-REQUISITOS FUNCIONALES
+﻿REQUISITOS FUNCIONALES
 
 El sistema permitirá que el usuario cree/modifique su plan de ahorro según sus necesidades.
 El software debe estar disponible para cualquier plataforma.
@@ -7,12 +7,11 @@ Cada usuario tendrá una ID única asociada, cuya adminsitración depende de la 
 A cada usuario, dependiendo de sus ingresos, le será estimado el umbral de gastos recomendable. El usuario podrá exceder este umbral.
 En caso de que el umbral recomendado sea excedido, se le notificará al usuario que está desaconsejado exceder este umbral.
 El usuario podrá visualizar la gestión y los gastos de sus ahorros.
-La configuración podrá ser modificada a su gusto por el cliente.¿?
+El sistema permitirá cierto grado de personalización para los usuarios.
 El sistema mostrará recomendaciones personalizadas para cada tipo de usuario analizando sus datos.
-El sistema otorgará diferentes privilegios dependiendo del tipo de usuario(normal, supervisor, moderador).
-El sistema no permitirá planes que sobrepasen los ahorros del usuario.
-El usuario tendrá la posibilidad de visualizar sus datos que la app almacena(Nombre, nick, correo electronico, ...).
-El usuario podrá aceptar o denegar las recomendaciones del sistema.
+El sistema otorgará diferentes privilegios dependiendo del tipo de usuario (normal, supervisor, moderador).
+El usuario tendrá la posibilidad de visualizar sus datos que la app almacena (Nombre, nick, correo electronico, ...).
+El usuario podrá ignorar las recomendaciones del sistema.
 El sistema mostrará uan pantalla de confirmación al usuario para cada modificación que haga en su cuenta.
 
 REQUISITOS NO FUNCIONALES
