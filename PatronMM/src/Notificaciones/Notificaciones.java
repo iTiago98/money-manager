@@ -25,7 +25,7 @@ public class Notificaciones {
 		this(new ArrayList<Notificacion>());
 	}
 	
-	/*
+	/**
 	 * Devuelve la instancia, si no existe se crea con el
 	 * constructor por defecto.
 	 */
@@ -38,7 +38,7 @@ public class Notificaciones {
 	/****/
 	// Están en el diagrama
 	
-	/*
+	/**
 	 * addNotificacion():
 	 * Añade la notificación si ésta tiene texto.
 	 */
@@ -47,7 +47,7 @@ public class Notificaciones {
 			this.notificaciones.add(not);
 	}
 	
-	/*
+	/**
 	 * getNotificacion(indx):
 	 * Devuelve la notificación especificada por el indice (indx).
 	 * Si no se encuentra, devuelve la última notificación guardada.
@@ -61,7 +61,7 @@ public class Notificaciones {
 				notificaciones.get(indx);
 	}
 	
-	/*
+	/**
 	 * getNotificacion():
 	 * Por defecto devuelve la última notificación guardada
 	 * sin eliminarla.
@@ -70,7 +70,7 @@ public class Notificaciones {
 		return this.getNotificacion(notificaciones.size() - 1);
 	}
 	
-	/*
+	/**
 	 * deleteNotificacion():
 	 * Elimina la notificación en la posición indx, si no
 	 * existe lanza una excepción.
@@ -88,7 +88,7 @@ public class Notificaciones {
 	}
 	/****/
 	
-	/*
+	/**
 	 * numeroNotificaciones()
 	 * Devuelve el número de notificaciones almacenadas.
 	 */

@@ -15,32 +15,16 @@ import static org.mockito.Mockito.eq;
 
 public class NotificacionTest {
 	
-	private TipoNotificacion tipo_mock;
+	Notificaciones notificaciones;
 	
 	@Before
 	public void inicializar() {
-		//tipo_mock = mock(TipoNotificacion.class);
+		notificaciones = Notificaciones.getInstancia();
 	}
 	
 	@Test
-	public void notificacionesSeComportaComoSingleton() {
-		// Se comportará como un singleton si cuando se vuelva a intentar
-		// crear una instancia de una clase ya instanciada sobre otro objeto
-		// no se devuelva una referencia nueva.
-		Notificaciones arrayNotif = Notificaciones.getInstancia();
-		Notificaciones arrayNotif2 = Notificaciones.getInstancia();
-		
-		assertTrue(arrayNotif.equals(arrayNotif2));
-	}
-	
-	@Test
-	public void lasNotificacionesSinMensajeNoSeAgregan() {
-		Notificaciones arrayNotif = Notificaciones.getInstancia();
-		int tam = arrayNotif.numeroNotificaciones();
-		
-		arrayNotif.addNotificacion(new Notificacion(TipoNotificacion.ADVERTENCIA));
-		
-		assertEquals(tam, arrayNotif.numeroNotificaciones());
+	public void notificacionesActuaComoSingleton() {
+		Notificaciones test = Notificaciones.getInstancia();
 	}
 	
 }
