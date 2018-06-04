@@ -25,15 +25,25 @@ public class Notificaciones {
 		this(new ArrayList<Notificacion>());
 	}
 	
+	/*
+	 * Devuelve la instancia, si no existe se crea con el
+	 * constructor por defecto.
+	 */
+	public static Notificaciones getInstancia() {
+		if(instanciaNotificaciones == null)
+			instanciaNotificaciones = new Notificaciones();
+		return instanciaNotificaciones;
+	}
+	
 	/****/
 	// Están en el diagrama
 	
 	/*
 	 * addNotificacion():
-	 * añade la notificación si ésta tiene texto
+	 * Añade la notificación si ésta tiene texto.
 	 */
 	public void addNotificacion(Notificacion not) {
-		if(not.getTexto().length() > 0)
+		if(not.getTexto() != null)
 			this.notificaciones.add(not);
 	}
 	
@@ -46,7 +56,7 @@ public class Notificaciones {
 	public Notificacion getNotificacion(int indx) throws NotificacionException {
 		if(notificaciones.isEmpty()) throw new NotificacionException("Array de notificaciones vacío");
 		else
-			return (indx > notificaciones.size() || indx < 0)?
+			return (indx >= notificaciones.size() || indx < 0)?
 				notificaciones.get(notificaciones.size() - 1):
 				notificaciones.get(indx);
 	}
@@ -57,13 +67,13 @@ public class Notificaciones {
 	 * sin eliminarla.
 	 */
 	public Notificacion getNotificacion() {
-		return this.getNotificacion(notificaciones.size());
+		return this.getNotificacion(notificaciones.size() - 1);
 	}
 	
 	/*
-	 * 
-	 * 
-	 * 
+	 * deleteNotificacion():
+	 * Elimina la notificación en la posición indx, si no
+	 * existe lanza una excepción.
 	 */
 	public void deleteNotificacion(int indx) throws NotificacionException {
 		try {
@@ -79,13 +89,10 @@ public class Notificaciones {
 	/****/
 	
 	/*
-	 * Devuelve la instancia, si no existe se crea con el
-	 * constructor por defecto.
+	 * numeroNotificaciones()
+	 * Devuelve el número de notificaciones almacenadas.
 	 */
-	public static Notificaciones getInstancia() {
-		return (instanciaNotificaciones == null)?
-			new Notificaciones():
-			instanciaNotificaciones;
+	public int numeroNotificaciones() {
+		return this.notificaciones.size();
 	}
-	
 }

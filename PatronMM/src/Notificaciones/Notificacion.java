@@ -18,6 +18,7 @@ public class Notificacion {
 	
 	/*****/
 	// NO están en el diagrama pero son necesarios
+	
 	public String getTexto() {
 		return this.textoNotificacion;
 	}
@@ -30,7 +31,7 @@ public class Notificacion {
 	
 	/*
 	 * setNotificacion():
-	 * Modifica el contenido (texto) de una notifiacion
+	 * Modifica el contenido (texto) de una notifiación.
 	 */
 	public void setNotificacion(String texto) {
 		this.textoNotificacion = texto;

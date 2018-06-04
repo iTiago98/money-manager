@@ -20,17 +20,27 @@ public class NotificacionTest {
 	@Before
 	public void inicializar() {
 		//tipo_mock = mock(TipoNotificacion.class);
-		
 	}
 	
 	@Test
-	public void elArrayDeNotificacionesSeComportaComoSingleton() {
-		Notificaciones arrayNot = Notificaciones.getInstancia();
-		Notificaciones arrayNot2 = Notificaciones.getInstancia();
+	public void notificacionesSeComportaComoSingleton() {
+		// Se comportará como un singleton si cuando se vuelva a intentar
+		// crear una instancia de una clase ya instanciada sobre otro objeto
+		// no se devuelva una referencia nueva.
+		Notificaciones arrayNotif = Notificaciones.getInstancia();
+		Notificaciones arrayNotif2 = Notificaciones.getInstancia();
 		
-		arrayNot.addNotificacion(new Notificacion(TipoNotificacion.ADVERTENCIA, "Hola"));
+		assertTrue(arrayNotif.equals(arrayNotif2));
+	}
+	
+	@Test
+	public void lasNotificacionesSinMensajeNoSeAgregan() {
+		Notificaciones arrayNotif = Notificaciones.getInstancia();
+		int tam = arrayNotif.numeroNotificaciones();
 		
-		assertTrue(arrayNot.getNotificacion(0).equals(arrayNot2.getNotificacion(0)));
+		arrayNotif.addNotificacion(new Notificacion(TipoNotificacion.ADVERTENCIA));
+		
+		assertEquals(tam, arrayNotif.numeroNotificaciones());
 	}
 	
 }
