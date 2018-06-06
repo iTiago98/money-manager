@@ -1,7 +1,7 @@
-package CuentaTest;
+package Testing.CuentaTest;
 
-import Cuenta.*;
-import Exceptions.CuentaException;
+import Testing.Cuenta.*;
+import Testing.Exceptions.CuentaException;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package Exceptions;
+package Testing.Exceptions;
 
 public class CuentaException extends RuntimeException{
 	

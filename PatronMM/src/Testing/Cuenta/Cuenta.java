@@ -1,6 +1,6 @@
-package Cuenta;
+package Testing.Cuenta;
 
-import Exceptions.CuentaException;
+import Testing.Exceptions.CuentaException;
 
 public class Cuenta
 {

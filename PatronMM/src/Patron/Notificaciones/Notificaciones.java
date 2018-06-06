@@ -1,4 +1,4 @@
-package Notificaciones;
+package Patron.Notificaciones;
 
 import java.util.ArrayList;
 

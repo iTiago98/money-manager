@@ -1,4 +1,4 @@
-package Notificaciones;
+package Patron.Notificaciones;
 
 public enum TipoNotificacion {
 	ADVERTENCIA,	/* Sobre la cuenta, de alta prioridad */

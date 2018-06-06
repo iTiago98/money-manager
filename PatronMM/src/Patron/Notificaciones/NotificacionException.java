@@ -1,4 +1,4 @@
-package Notificaciones;
+package Patron.Notificaciones;
 
 public class NotificacionException extends RuntimeException {
 

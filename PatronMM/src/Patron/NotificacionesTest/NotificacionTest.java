@@ -1,6 +1,6 @@
-package NotificacionesTest;
+package Patron.NotificacionesTest;
 
-import Notificaciones.*;
+import Patron.Notificaciones.*;
 
 import org.junit.*;
 import static org.junit.Assert.*;

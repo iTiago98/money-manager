@@ -1,4 +1,4 @@
-package Cuenta;
+package Testing.Cuenta;
 
 public interface IAdminCuenta
 {
